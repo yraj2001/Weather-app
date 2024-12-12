@@ -1,16 +1,8 @@
-import { Heading } from "@chakra-ui/react";
 import "./App.css";
-import NavBar from "./components/NavBar";
+import Layout from "./Layout";
 
 function App() {
-  return (
-    <>
-      <NavBar />
-      <Heading size="xl" color="red">
-        Testings
-      </Heading>
-    </>
-  );
+  return <Layout />;
 }
 
 export default App;
